@@ -1,0 +1,29 @@
+.mainButton {
+  padding: 0 1em;
+  height: 2.5rem;
+  border-radius: 3px;
+  border: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--main-white);
+  font-size: 1rem;
+}
+
+.mainButton:hover {
+  opacity: 0.8;
+}
+
+.mainButton svg {
+  margin-right: 0.5rem;
+}
+
+.on {
+  background-color: var(--main-blue);
+}
+
+.off {
+  background-color: var(--main-red);
+}

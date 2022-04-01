@@ -1,0 +1,17 @@
+.menu {
+  margin-left: auto;
+  margin-right: 1.5rem;
+}
+
+.menu a {
+  position: relative;
+  padding: 0.5rem 0.75rem;
+  border-radius: 3px;
+  color: var(--main-white);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  background-color: var(--main-blue);
+}

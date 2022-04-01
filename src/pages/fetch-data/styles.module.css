@@ -1,0 +1,33 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  padding: 0.5rem 0;
+}
+
+.list li:first-child {
+  margin-top: 1rem;
+}
+
+.ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.ul li {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ul li:nth-child(odd) {
+  background-color: #ccc;
+}
+
+.ul svg {
+  font-size: 1.2rem;
+}

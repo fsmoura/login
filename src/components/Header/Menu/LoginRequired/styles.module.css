@@ -1,0 +1,11 @@
+.loginRequired {
+  font-size: 0.4rem;
+  position: absolute;
+  top: 0;
+  background: var(--main-red);
+  padding: 0.1rem;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-shadow: 0.5px 0.5px 0 rgba(0, 0, 0, 0.8);
+  z-index: 1;
+}
